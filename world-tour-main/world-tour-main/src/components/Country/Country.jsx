@@ -22,6 +22,9 @@ const Country = ({ country }) => {
       <button onClick={handleVisited} >{visited ? 'visited' : 'going' }</button>
       {/* {visited && " i have visited"} */}
       {visited ? 'i have visited' : 'not'}
+      <button onClick={handleVisited} >{visited ? 'visited' : 'going' }</button>
+      {/* {visited && " i have visited"} */}
+      {visited ? 'i have visited' : 'not'}
     </div>
   );
 };
