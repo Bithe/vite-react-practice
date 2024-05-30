@@ -20,6 +20,7 @@ const Country = ({ country }) => {
       {/* {visited && " i have visited"} */}
       {visited ? 'i have visited' : 'not'}
       <button onClick={handleVisited} >{visited ? 'visited' : 'going' }</button>
+      <button onClick={handleVisited} >{visited ? 'visited' : 'going' }</button>
    
     </div>
   );
